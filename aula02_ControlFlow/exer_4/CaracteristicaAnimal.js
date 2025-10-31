@@ -7,48 +7,44 @@ let tipo = leia.question("Vertebrado ou Invertebrado? ")
 if (tipo == "vertebrado") {
     console.log("Ave ou Mamífero? ")
     classe = leia.question()
-
       if (classe == "ave") {        
     console.log("Carnívoro ou Onívoro? ")
     alimentacao = leia.question()
-
-      if (alimentacao == "carnivoro") {
+        if (alimentacao == "carnivoro") {
       animal = "Águia"
-    }
+        }
         else if (alimentacao == "onivoro") {
       animal = "Pomba"
+        }
     }
-} else if (classe == "mamifero") {
+    else if (classe == "mamifero") {
     console.log("Onívoro ou Herbivoro? ")
     alimentacao = leia.question()
-
       if (alimentacao == "onivoro") {
                   animal = "Homem"
       } else if (alimentacao == "herbivoro") {
       animal = "Vaca"
       }
-}
+    }
 }
 else if (tipo == "invertebrado") {
     console.log("Inseto ou Anelídeo? ")
-      classe = leia.question()
+    classe = leia.question()
 
   if (classe == "inseto") {
     console.log("Hematofago ou Herbivoro? ")
     alimentacao = leia.question()
-
     if (alimentacao == "hematofago") {
       animal = "Pulga"
-    } 
+        } 
     else if (alimentacao == "herbivoro") {
       animal = "Lagarta"
-    }
+        }
   }
 
 else if (classe == "anelideo") {
     console.log("Hematófago ou Onívoro? ")
-      alimentacao = leia.question()
-
+    alimentacao = leia.question()
     if (alimentacao == "hematofago") {
       animal = "Sanguessuga"
     }

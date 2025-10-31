@@ -11,6 +11,7 @@ switch (opcao) {
         console.log("Quantidade de itens: ")
         quantidade = leia.questionInt()
         calculo = quantidade * 10
+        console.clear()
         console.log("\nProduto: Cachorro Quente" + "\n" + "\nValor total: R$" + calculo )
         break
 //Saída--> Produto: Cachorro Quente ++ Valor total: quantidade + R$ 10.00 
@@ -18,6 +19,7 @@ switch (opcao) {
         console.log("Quantidade de itens: ")
         quantidade = leia.questionInt()
         calculo = quantidade * 15
+        console.clear()
         console.log("\nProduto: X-Salada" + "\n" + "\nValor total: R$" + calculo )
         break
 //Saída--> Produto: X-Salada ++ Valor total: quantidade + R$ 15.00
@@ -25,6 +27,7 @@ switch (opcao) {
         console.log("Quantidade de itens: ")
         quantidade = leia.questionInt()
         calculo = quantidade * 18
+        console.clear()
         console.log("\nProduto: X-Bacon" + "\n" +"\nValor total: R$" + calculo )
         break
 //Saída--> Produto: X-Bacon ++ Valor total: quantidade + R$ 18.00
@@ -32,6 +35,7 @@ switch (opcao) {
         console.log("Quantidade de itens: ")
         quantidade = leia.questionInt()
         calculo = quantidade * 12
+        console.clear()
         console.log("\nProduto: Bauru" + "\n" +"\nValor total: R$" + calculo )
         break
 //Saída--> Produto: Bauru ++ Valor total: quantidade + R$ 12.00 
@@ -39,6 +43,7 @@ switch (opcao) {
         console.log("Quantidade de itens: ")
         quantidade = leia.questionInt()
         calculo = quantidade * 8
+        console.clear()
         console.log("\nProduto: Refrigerante" + "\n" + "\nValor total: R$" + calculo )
         break
 //Saída--> Produto: Refrigerante ++ Valor total: quantidade + R$ 8.00 
@@ -46,6 +51,7 @@ switch (opcao) {
         console.log("Quantidade de itens: ")
         quantidade = leia.questionInt()
         calculo = quantidade * 13
+        console.clear()
         console.log("\nProduto: Suco de laranja" + "\n" + "\nValor total: R$" + calculo )
         break
 //Saída--> Produto: Suco de laranja ++ Valor total: quantidade + R$ 13.00 

@@ -13,24 +13,28 @@ let opcao
 switch (opcao) {
     case 1:
         calculo = numero1 + numero2
-        console.log(numero1 + " + " + numero2 + " = " + calculo)
+        console.clear()
+        console.log("\n" + numero1 + " + " + numero2 + " = " + calculo)
         break
 //Saída--> numero1 + numero2 = calculo
     case 2:
         calculo = numero1 - numero2
-        console.log(numero1 + " - " + numero2 + " = " + calculo)
+        console.clear()
+        console.log("\n" + numero1 + " - " + numero2 + " = " + calculo)
         break
 //Saída--> numero1 - numero2 = calculo
     case 3:
         calculo = numero1 * numero2
-        console.log(numero1 + " * " + numero2 + " = " + calculo)
+        console.clear()
+        console.log("\n" + numero1 + " * " + numero2 + " = " + calculo)
         break
 //Saída--> numero1 * numero2 = calculo
     case 4:
         calculo = numero1 / numero2
-        console.log(numero1 + " / " + numero2 + " = " + calculo)
+        console.clear()
+        console.log("\n" + numero1 + " / " + numero2 + " = " + calculo)
         break
 //Saída--> numero1 / numero2 = calculo 
     default:
-        console.log("Operação inválida!")
+        console.log("\nOperação inválida!")
 }
