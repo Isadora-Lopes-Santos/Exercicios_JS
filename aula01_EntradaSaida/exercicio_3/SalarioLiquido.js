@@ -11,7 +11,6 @@ let SalarioLiquido
 console.log("Digite o salário bruto: ")
 SalarioBruto = leia.questionFloat()
 
-
 console.log("Digite o adicional noturno: ")
 AdicionalNoturno = leia.questionFloat()
 
@@ -21,9 +20,6 @@ HorasExtras = leia.questionFloat()
 console.log("Digite os descontos aplicados: ")
 Descontos = leia.questionFloat()
 
-
 SalarioLiquido = SalarioBruto + AdicionalNoturno + (HorasExtras * 5) - Descontos
-
-
 
 console.log("\nO salário líquido será: ", SalarioLiquido)
