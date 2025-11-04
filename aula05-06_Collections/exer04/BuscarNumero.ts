@@ -28,3 +28,4 @@ if (numeros.has(busca)) {
 } else {
   console.log(`O numero ${busca} não foi encontrado!`)
 }
+
